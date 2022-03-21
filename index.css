@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans&family=Pacifico&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  padding: 2rem;
+  position: relative;
+  background: url(./Image-resources/tech1.jpg) no-repeat center center/cover;
+  height: auto;
+}
+#sogo-logo > h1{
+  color: lightcyan;
+  font-size: 4rem;
+  font-family: pacifico, sans-serif;
+
+}
+.navbar-wrapper{
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+}
+.navlink-wrapper{
+  display: flex;
+  justify-content: space-evenly; 
+}
+.navlink-wrapper > a{
+  font-family: pacifico, sans-serif;
+  text-decoration: none;
+  color: lightcyan;
+  font-size: 2.5rem;
+}
+.navlink-wrapper > a:hover{
+  cursor: pointer;
+  color: lightskyblue;
+}
+.main-section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: lightskyblue;
+  margin-top: 20rem;
+  padding-bottom: 2rem;
+}
+.main-section > div{
+  margin-bottom: 2rem;
+}
+
+.About-Fullname{
+  font-size: 3rem;
+  text-align: center;
+  /* color: rgb(256,150, 150); */
+  /* font-family: pacifico; */
+  color: black;
+}
+
+.main-top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5rem;
+}
+.fullname{
+  text-align: center;
+  font-size: 4rem;
+  color: black;
+}
+.main-top img{
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Hero-links-wrapper > a >svg:hover{
+  color: black;
+}
+button{
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border: none;
+  font-family: lora, sans-serif;
+  border-radius: 5rem;
+  margin-right: 2rem;
+  background-color: lightskyblue;
+}
+button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: lightskyblue;
+}
+.about-section{
+  height: 30vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.About-me{
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+}
+.about-section > p{
+  font-size: 1.5rem;
+}
+.currently{
+  background-color: lightskyblue;
+  height: 30vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+}
+.working-at{
+  margin-bottom: 5rem;
+  font-size: 3rem;
+  text-align: center;
+  /* font-family: open sans , sans-serif; */
+}
+.where-at > a{
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: lightskyblue;
+  background-color: black;
+  padding: 1rem 3rem;
+  margin-right: 2rem;
+  border-radius: 3rem;
+  font-family: lora, sans-serif;
+}
+.where-at > a:hover{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: lightskyblue;
+  background-color: black;
+  padding: 1rem;
+}
+.above-cards{
+  text-align: center;
+}
+.above-cards h1{
+  font-size: 4rem;
+  padding-top: 2rem;
+  color: lightblue;
+  font-family: lora, sans-serif;
+}
+.card{
+  margin: 2rem;
+}
+.each-card-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.each-card{
+  width: 300px;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,.2);
+  border-radius: 5px;
+  text-align: center;
+  padding: 1rem;
+  margin: 2rem;
+}
+.each-card img{
+  width: 100%;
+  height: 200px;
+  /* padding: 1rem; */
+}
+.each-card >a >svg:hover{
+  color: black;
+}
+.each-card h1{
+  font-size: 2rem;
+  margin: 1rem;
+  color: lightskyblue;
+}
+.each-card p{
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.stack-wrapper{
+  background: #eee;
+}
+.all-stack-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.stack{
+  padding: 2rem;
+  color: lightskyblue;
+  text-align: center;
+}
+.stack h1{
+  font-size: 3rem;
+}
+.each-stack{
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.each-stack label{
+  font-size: 2rem;
+}
+.each-stack progress{
+  font-size: 3rem;
+  color: lightskyblue;
+}
+/* .progress-status::-webkit-progress-bar{
+  background-color: #ccc;
+}
+.progress-status::-webkit-progress-value{
+  color: #87cefa;
+}
+.progress-status::-moz-progress-bar{
+  background-color: white;
+}
+.progress-status.progress-status::-moz-progress-value{
+  background-color: #87cefa;
+}
+.progress-status{
+  color: #87cefa;
+} */
+.services {
+  padding: 3rem;
+  background: lightskyblue;
+}
+.services-head h1{
+  font-size: 3rem;
+  text-align: center;
+}
+.services-section{
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+.first-service{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 30rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,.2);
+  background-color: white;
+}
+.first-service > svg{
+  margin-bottom: 1.5rem;
+}
+.first-service > h2{
+  font-size: 2.5rem;
+  color: lightskyblue;
+}
+.first-service > p{
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
+.work-with-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.work-with-me-header > h2{
+  font-size: 2.5rem;
+  color: lightskyblue;
+  padding: 2rem;
+}
+
+.input-section > label,
+.input-section > input,
+.input-section > textarea{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 30rem;
+  padding: 1rem;
+}
+.input-section > input:focus,
+.input-section > textarea:focus{
+  border-color: #87cefa;
+
+}
+.input-section > label{
+  margin-bottom: .5rem;
+  font-weight: bold ;
+  padding: 0;
+}
+.input-section > .submit{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.foot-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  background: #eee;
+  padding-bottom: 3rem;
+}
+.foot-wrapper > div > h1{
+  font-size: 2.5rem;
+  margin: 2rem;
+  color: black;
+}
+.foot-wrapper > .Hero-links-wrapper > a{
+  margin: 2rem;
+}
+.foot-wrapper > .Hero-links-wrapper > a:hover{
+  color: black;
+}
+h1, h2, label{
+  font-family: lora, sans-serif;
+}
+a > svg{
+  color: #87cefa;
+  text-decoration: none;
+  margin: 1rem;
+}
+.copyright{
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.copyright-wrapper{
+  background-color: lightskyblue;
+}
